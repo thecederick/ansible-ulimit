@@ -1,0 +1,17 @@
+---
+ulimit_folder: "/etc/security/limits.d/"
+
+ulimit_config: []
+
+#Example:
+#ulimit_config:
+#  - name: rabbitmq
+#    limits:
+#      - domain: rabbitmq
+#        type: soft
+#        item: nofile
+#        value:  2000
+#      - domain: rabbitmq
+#        type: hart
+#        item: nofile
+#        value:  2000
